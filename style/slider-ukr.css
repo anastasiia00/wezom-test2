@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .body {
+    position: relative;
+    width: 100%;
+    height: 1335px;
+    background: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    display: flex;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .product_header {
+    width: 260px;
+    height: 260px;
+    border: 2px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 27px 30px;
+    margin-right: 30px;
+    margin-bottom: 16px;
+  }
+  
+  .product1 {
+    width: 240px;
+    margin-right: 30px;
+  }
+  
+  .product2{
+    width: 240px;
+    margin-right: 30px;
+  }
+  
+  .product3{
+    width: 240px;
+    margin-right: 30px;
+  }
+  
+  .product4{
+    margin-bottom: 15px;
+    margin-right: 30px;
+    width: 240px;
+  }
+  
+  .product5{
+    margin-right: 30px;
+    width: 241px;
+  }
+  
+  .product_name {
+    max-width: 240px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #202454;
+    margin-top: 16px;
+  }
+  
+  .button_for_buy {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    left: 183px;
+    top: -58px;
+  }
+  
+  .stars1 {
+    display: flex;
+    justify-content: left;
+    margin-top: 23px;
+  }
+  
+  .stars2 {
+    display: flex;
+    justify-content: left;
+    margin-top: 45px;
+  }
+  
+  .stars3 {
+    display: flex;
+    justify-content: left;
+    margin-top: 11px;
+  }
+  
+  .upper_price {
+    display: flex;
+    justify-content: left;
+  }
+  
+  .product_price {
+    margin-left: 9px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #7B94B0;
+  }
+  
+  .total_price {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    margin-top: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .product_first-price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18,2px;
+    text-decoration-line: line-through;
+    color: #7B94B0;
+  }
+  
+  .product_total-price {
+    margin-left: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #202454;
+    order: 1;
+  }
+  
+  .labes_frame1 {
+    position: relative;
+    max-width: 84px;
+    left: -15px;
+    top: -210px;
+    background:#8D58E3;
+    border-radius: 3px;
+    padding: 4px 6px 3px; 
+  }
+  
+  .labes_frame1_text {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    justify-content: center;
+  }
+  
+  .labes_frame2 {
+    position: relative;
+    max-width: 85px;
+    left: -15px;
+    top: -210px;
+    background: #E95471;
+    border-radius: 3px;
+    margin: 6px 0px;
+  }
+  
+  .labes_frame2_text {
+    padding: 3px;
+    color: white;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin: 0px 5px;
+  }
+  
+  .labes_frame3 {
+    position: relative;
+    max-width: 90px;
+    left: -15px;
+    top: -220px;
+    background: #3BC5AD;
+    border-radius: 3px;
+    margin: 6px 0px; 
+    max-width: 62px;
+  }
+  
+  .labes_frame3_text {
+    padding: 3px;
+    color: white;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin: 0px 5px;
+  }
+  
+  .slick-next {
+    border: 2px solid #FFFFFF;
+    background: #E77E42;
+    border-radius: 3px;
+    padding: 10px 13px;
+    margin-left: 18px;
+  }
+  
+  .slick-prev {
+    border: 2px solid #FFFFFF;
+    background: #E0E0E0;
+    border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px 13px;
+    margin-right: 18px;
+  }
+  
+  .slick-dots{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .slick-dots button{
+    font-size: 0;
+    border: none;
+    background-color: #E0E0E0;
+    padding: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 4px;
+  }
+  
+  .slick-dots .slick-active button {
+    background-color: #245420;
+  }
+  
+  li{
+  list-style-type: none;
+  }
